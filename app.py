@@ -17,4 +17,4 @@ def histogram():
     x = 100 + 15 * np.random.randn(437)
     plt.hist(x, input.selected_number_of_bins(), color="purple", density=True)
     plt.grid()
-    plt.title("My Histogram")
+    plt.title(f"My histogram with {input.selected_number_of_bins()} bins selected")
